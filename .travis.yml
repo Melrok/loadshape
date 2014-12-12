@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+virtualenv:
+  system_site_packages: true
+
+install:
+  - "./bootstrap.sh"
+
+script:
+  - "nosetests"
