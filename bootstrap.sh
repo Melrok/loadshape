@@ -1,12 +1,14 @@
 #!/bin/bash
+set -e
 
 # Update system
-#sudo apt-get update -qq
+sudo apt-get update
 
 # Install pip / distribute
 sudo apt-get -y install python-pip
-sudo pip install -U pip
-sudo pip install -U distribute
+which pip
+#sudo pip install -U pip
+sudo pip install -U distribute nose setuptools pytz
 
 # Install Python dependancies
 sudo apt-get -y install python-numpy

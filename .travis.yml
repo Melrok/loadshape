@@ -5,7 +5,10 @@ virtualenv:
   system_site_packages: true
 
 install:
-  - "sudo bash bootstrap.sh"
+  - echo "$PWD"
+  - echo "$HOME"
+  - ls
+  - ./bootstrap.sh
 
 script:
   - "nosetests"
