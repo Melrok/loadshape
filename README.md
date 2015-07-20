@@ -1,7 +1,7 @@
 #Loadshape
 *A Python module containing tools for analyzing electric load shapes*
 
-[![Build Status](https://travis-ci.org/nehalecky/loadshape.svg?branch=master)](https://travis-ci.org/nehalecky/loadshape)
+[![Build Status](https://travis-ci.org/Melrok/loadshape.svg?branch=bootstrap-vm-and-ci)](https://travis-ci.org/Melrok/loadshape)
 
 Generating baselines for electric loads can be tricky, this module makes it easy:
 
